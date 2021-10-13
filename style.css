@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.keyboard-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.keyboard-key {
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: #e4e4e4;
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+    vertical-align: middle;
+    line-height: 50px;  
+}
+
+.keyboard-key:hover {
+    background-color: #afafaf;
+}
+
+.active {
+    border-radius: 10px;
+    background-color: #8b8b8b;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.Backspace, .CapsLock, .Enter, .ShiftLeft, .ShiftRight {
+    min-width: 110px;
+}
+
+.Space {
+    min-width: 350px;
+}
+
+.textarea {
+    margin-left: 10px;
+    min-width: 890px;
+    min-height: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.en {
+    margin-top: 10px;
+}
+
+main {
+    width: 890px;
+    margin: 0 auto;
+}
